@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link as RouterLink } from 'react-router-dom';
-import { UnorderedList, ListItem, Link, Progress, Text } from '@chakra-ui/react';
+import { UnorderedList, ListItem, Link, Progress, Text, Image, Box} from '@chakra-ui/react';
 import { useQuery } from 'react-query';
 import { buildSearchMovieUrl } from '../connectors/tmdb';
 import { getYear } from '../utils';
@@ -31,13 +31,19 @@ export default function Search() {
   }
   return (
     <UnorderedList>
-      {data.results.map(({ id, title, release_date }) => (
+      {data.results.map(({ id, title, release_date, popularity, vote_count, poster_path, original_title,overview}) => (
         <ListItem key={id}>
           <Link as={RouterLink} to={`/movies/${id}`}>
             <Text as="span">{title} </Text>
             <Text as="span" color="GrayText">
               {getYear(release_date)}
             </Text>
+            <Text as="span" color="RedText">
+             ||{popularity}||{id}
+            </Text>
+            <Box>
+            <Image src="buildImageUrl({poster_path})" />
+            </Box>
           </Link>
         </ListItem>
       ))}
