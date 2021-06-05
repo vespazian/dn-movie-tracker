@@ -136,12 +136,12 @@ Acum să trecem la muncă.
    completat un task, ~~✂️ îl tai de aici~~.
 2. Users. Completează modelul utilizatorului cu: city, country, about, birthday (date). Completează
    rutele pentru users cu toate metodele CRUD:
-   - întoarce toți utilizatorii
-   - adaugă un utilizator
-   - întoarce un singur utilizator
+   //- întoarce toți utilizatorii
+   //- adaugă un utilizator
+   //- întoarce un singur utilizator
    - modifică datele unui utilizator
    - suprascrie un utilizator
-   - șterge un utilizator
+   //- șterge un utilizator
      > Pentru a identifica utilizatorul, folosește adresa de email
 3. Movies. Completează rutele pentru filme:
    - întoarce un singur film - mai întâi verifici dacă filmul există în BD, dacă nu, îl descarci de
