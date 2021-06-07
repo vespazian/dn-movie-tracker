@@ -1,0 +1,13 @@
+dn movie tracker
+
+
+sunt 3 parti importante in proiect,-- viziunea mea --:
+1. interfata user
+2. user
+	rute 
+	insomnia si mongodb
+	
+3. movies
+	rute
+	fetch() mongodb
+	
