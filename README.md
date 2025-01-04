@@ -7,11 +7,6 @@
 1. Fork la acest repo
 2. `git clone` la forkul nou creat (nu acest repo)
 3. `npm install` pentru a descărca toate dependențele necesare
-4. Creează un branch nou `project` din `main` și lucrează pe el
-5. Oferă-mi access la fork, de pe GitHub `settings/access`, invită un colaborator, caută
-   `victor@locoman.ro`
-6. Adaugă 1-2 colegi la colaboratori ca să vă ajutați reciproc prin feedback la cod/soluție
-7. Copiază fișierul `.env.example` în `.env` și completează-l
 
 ## Rularea proiectului
 
@@ -86,11 +81,6 @@ să o faceți mai simplu, diferit.
 
 Are grijă de operațiile async din React.
 
-### Q: E necesar să folosesc toate aceste instrumente?
-
-A: Nu e necesar, sunt doar alegerea mea. Te invit să înlocuiești oricare din ele după bun plac. E un
-exercițiu bun să faci același proiect cu tehnologii diferite.
-
 ## Arhitectura aplicației
 
 ### Problema
@@ -127,13 +117,9 @@ Recomandările le vom face pe baza informațiilor din BD.
 - `public` - fișierele statice pentru React
 - `env.example` - fișierul de configurare ce trebuie copiat în `.env`
 
-## Sarcini
+## Pasi
 
-Acum să trecem la muncă.
-
-1. Deschide `README.md` în VS Code. O să verzi sursa textului în format Markdown. E chiar simpatic,
-   dar dacă vrei să-l vezi ca și pe GitHub, apasă `Preview` din bara de sus. Acum, după ce ai
-   completat un task, ~~✂️ îl tai de aici~~.
+1. Deschide `README.md`
 2. Users. Completează modelul utilizatorului cu: city, country, about, birthday (date). Completează
    rutele pentru users cu toate metodele CRUD:
    //- întoarce toți utilizatorii
@@ -166,7 +152,7 @@ Acum să trecem la muncă.
    asemănătoare ca și funcționalitate cu filmele favorite, doar că aici vom pune doar genul
    filmului. Ne vom folosi de aceste date mai târziu, când vom lucra la recomandări.
 
-## Sarcini pentru UI (React)
+## UI (React)
 
 7. Completează pagina Search cu mai multe informații (popularitatea, ratingul, posterul, orice
    altceva ți se pare interesant). Adaptează design-ul. înlocuiește call-ul către TMDB cu unul către
@@ -193,12 +179,3 @@ Acum să trecem la muncă.
     aș împărți pagina în 2: în dreapta afișez recomandarea cu ce să privești, iar în stânga, una sub
     alta: search, watchlist, history. Provocarea e să arate bine.
 
-## După ce ai terminat sarcinile,
-
-- deschide un PR din `[username]/project` în `[username]/main` și adaugă-mă la `Reviews`, unde
-  `[username]` trebuie înlocuit cu username-ul tău de GitHub. Apoi "mark as done" pe classroom. Poți
-  împărți munca în mai multe PR-uri, pentru o organizare mai bună
-- la ultimul Rush, să faci o prezentare scurtă cu ce ai făcut la proiect
-- având proiectul pe GitHub, transformă-l într-un proiect de portfoliu: modifică acest Readme,
-  astfel încât să descrii ce anume ai făcut la acest proiect și ce ai învățat din aceasta. Apoi,
-  atașează link-ul la CV-ul tău
